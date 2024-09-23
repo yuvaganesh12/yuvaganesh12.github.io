@@ -3,44 +3,45 @@
 * {
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
 }
 
 
 .container-1 {
-
-    height: 100vh;
-}
+    width: 100vw;
+    height: 10vh;
+} 
 
 .header {
-   
+    width: 100vw;
     height: 10vh;
     position: fixed;
     z-index: 10;
-    left: 50%;
-padding: 20px;
-
-
-
+    /* left: 50%; */
+    padding: 5px;
+    background-color:darkcyan;
+   
 }
 
+.header nav{
+    float: right;
+    margin-top: 1%;
+    
+}
 
-
-a {
+nav a{
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
+    margin-right: 16px;
+   color: white;
 }
-
-
-hr {
-    position: fixed;
-    border: 2px solid;
-
+nav a:hover{
+    color:black;
 }
-
-
 .yuva {
-
+    width: 100vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,7 +200,7 @@ hr {
 .image-1 {
     position: absolute;
     left: 10%;
-    top: 320%;
+    top: 330%;
     border-radius: 60%;
 }
 
@@ -208,7 +209,7 @@ hr {
 
     position: absolute;
     left: 40%;
-    top: 340%;
+    top: 350%;
     font-size: 40px;
 }
 
@@ -300,115 +301,3 @@ hr {
     font-size: 40px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
