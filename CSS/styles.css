@@ -1,8 +1,8 @@
 * {
     padding: 0%;
     margin: 0%;
-    overflow-X: hidden;
-    /* scroll-behavior: smooth; */
+    
+   
 }
 
 
@@ -19,7 +19,6 @@
     height: 10vh;
     position: fixed;
     z-index: 10;
-
     padding: 5px;
     background-color: darkcyan;
 
@@ -47,11 +46,17 @@ nav a:hover {
 
 
 .text-1 {
-
+     width: 250px;
+     height: 110px;
+     background-color: rgb(88, 172, 177);
+     border-radius: 10%;
+     animation: rotate 2s infinite;
     position: absolute;
-    left: 20%;
+    left: 35%;
     top: 45%;
     font-size: 40px;
+    text-align: center;
+  
 
 }
 
@@ -59,22 +64,32 @@ nav a:hover {
 .text-2 {
 
     position: absolute;
-    left: 25%;
-    top: 55%;
+    left: 35%;
+    top: 59%;
     font-size: 30px;
 
 }
 
 
-.image {
 
-    position: absolute;
-    left: 55%;
-    top: 30%;
-    border-radius: 80%;
-
+ .gallery {
+ position: absolute;
+ left: 60%;
 }
 
+.photo {
+    width: 300px; 
+    height: auto; 
+    border-radius: 80%; 
+    box-shadow: 19 5px 40px rgba(199, 147, 16, 0.7); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+}
+.photo:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 300px rgb(31, 208, 119);
+ 
+}
 
 
 /* About Me */
@@ -116,7 +131,6 @@ top:30%;
 
 
 }
-
 
 
 .one{
@@ -207,3 +221,12 @@ top:30%;
     font-size: 3em;
     line-height: 100px;
 }
+
+
+@keyframes rotate {
+   
+    40% {
+        transform: translatex(-150px); 
+    }
+   
+} 
