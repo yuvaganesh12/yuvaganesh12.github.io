@@ -1,10 +1,12 @@
 * {
     padding: 0%;
     margin: 0%;
-    
+
    
 }
-
+html{
+    overflow-x: hidden;
+}
 
 #home {
     width: 100vw;
@@ -46,7 +48,7 @@ nav a:hover {
 
 
 .text-1 {
-     width: 250px;
+     width: 300px;
      height: 110px;
      background-color: rgb(88, 172, 177);
      border-radius: 10%;
@@ -56,6 +58,7 @@ nav a:hover {
     top: 45%;
     font-size: 40px;
     text-align: center;
+  
   
 
 }
@@ -103,13 +106,26 @@ nav a:hover {
 
 
 
-.image-1 {
-    position: relative;
-    left: 100px;
-    top: 25%;
-    border-radius: 10%;
-}
 
+.gallery-1 {
+    position: absolute;
+    left: 5%;
+    top: 130%;
+   }
+   
+   .photo-1{
+  
+       width: 300px; 
+       height: auto; 
+       border-radius: 10%; 
+       box-shadow: 19 10px 40px rgba(12, 80, 183, 0.7); 
+       transition: transform 0.3s, box-shadow 0.3s; 
+ 
+   }
+   .photo-1:hover {
+       transform: scale(1.05); 
+       box-shadow: 0 1px 900px rgb(222, 21, 178);
+   } 
 
 .my{
 position: absolute;
@@ -124,13 +140,25 @@ top: 140%;
     height: 100vh;
     width: 100vw;
 }
-.img{
- position: relative;
-left:5%;
-top:30%;
-
-
-}
+.gallery-2 {
+    position: absolute;
+    left: 5%;
+    top: 220%;
+   }
+   
+   .photo-2{
+  
+       width: 300px;
+       height: 600px; 
+       border-radius: 80%; 
+       box-shadow: 19 10px 40px rgba(12, 80, 183, 0.7); 
+       transition: transform 0.3s, box-shadow 0.3s; 
+ 
+   }
+   .photo-2:hover {
+       transform: scale(1.05); 
+       box-shadow: 0 1px 900px rgb(52, 9, 195);
+   } 
 
 
 .one{
@@ -158,52 +186,114 @@ top:30%;
 
 .html{
     position: absolute;
-    top: 335vh;
-    left: 15vw;
+    top: 335%;
+    left: 10%;
+
 }
+
+.photo-3{
+  
+    width: 200px;
+    height: 200px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+}
+.photo-3:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 1px 900px rgb(234, 139, 5);
+} 
+
+
 
 .css{
     position: absolute;
-    top:335vh;
-    left:30vw;
+    top:335%;
+    left:30%;
 }
+
+.photo-4{
+  
+    width: 200px;
+    height: 200px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+}
+.photo-4:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 1px 900px rgb(231, 33, 7);
+} 
+
 
 .paint{
     position: absolute;
-    top: 335vh;
-    left: 52vw;
+    top: 335%;
+    left: 52%;
 }
 
+.photo-5{
+  
+    width: 200px;
+    height: 200px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+}
+.photo-5:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 1px 900px rgb(2, 128, 159);
+} 
 .running{
     position: absolute;
     top: 335vh;
     left:70vw ;
+
 }
 
-.text{
-    font-size: 2em;
+.photo-6{
+  
+    width: 200px;
+    height: 200px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+}
+.photo-6:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 1px 900px rgb(4, 1, 78);
+} 
+
+
+
+.num1{
+    position: relative;
+    top: 65%;
+    left: 15%;
+    font-size: 40px;
+    animation: colorChange 1s infinite alternate;
 }
 
-.n1{
+.num2{
     position: relative;
-    top: 64vh;
-    left: 20%;
+    top: 60%;
+    left: 35%;
+    font-size: 40px;
+    animation: colorChange 1s infinite alternate;
 }
-.n2{
+
+.num3{
     position: relative;
-    top: 60vh;
-    left: 39%;
+    top: 56%;
+    left: 55%;
+    font-size: 40px;
+    animation: colorChange 1s infinite alternate;
 }
-.n3{
+
+.num4{
     position: relative;
-    top: 56vh;
-    left: 57%;
+    top: 50%;
+    left: 75%;
+    font-size: 40px;
+    animation: colorChange 1s infinite alternate;
 }
-.n4{
-    position: relative;
-    top: 53vh;
-    left: 73%;
-}
+
 
 /* contact */
 #contact{
@@ -223,6 +313,7 @@ top:30%;
 }
 
 
+
 @keyframes rotate {
    
     40% {
@@ -230,3 +321,32 @@ top:30%;
     }
    
 } 
+ 
+
+@keyframes colorChange {
+    0% {
+        color: #ff5733; /* Red */
+    }
+    25% {
+        color: #33ff57; /* Green */
+    }
+    50% {
+        color: #3357ff; /* Blue */
+    }
+    75% {
+        color: #f1c40f; /* Yellow */
+    }
+    100% {
+        color: #9b59b6; /* Purple */
+    }
+}
+
+
+
+
+
+
+
+
+
+
